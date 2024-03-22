@@ -1,39 +1,97 @@
+<style>
+  @media print {
+    size: letter portrait;
+  }
+  @page {
+    margin-top: 50em;
+  }
+  @page :first {
+    margin-top: 2em;
+  }
+  @font-face {
+    font-family: 'sf';
+    src: url('./fonts/sf-pro-text_regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'sf+bold';
+    src: url('./fonts/sf-pro-text_bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'sf-light';
+    src: url('./fonts/sf-pro-text_light.woff2') format('woff2');
+  }
+
+  body {
+    font-family: 'sf-light', Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    margin: 4em;
+    max-width: 70em;
+  }
+  
+  section {
+      page-break-inside: avoid;
+    }
+  
+  h1 {
+    font-family: 'sf-bold', Helvetica, Arial, sans-serif;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-family: 'sf-light', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+</style>
+<body id="container">
 <h1 id="brent-rockwood">Brent Rockwood</h1>
 <p><strong>Address:</strong> 525 Mount Washington Ln., Johns Creek, GA,
 30022<br />
-<strong>Email:</strong> brent@brentrockwood.com<br />
+<strong>Email:</strong> <a
+href="mailto:brent@brentrockwood.com">brent@brentrockwood.com</a><br />
 <strong>Phone:</strong> +1 404 960 2864<br />
-<strong>LinkedIn</strong> https://www.linkedin.com/in/brentrockwood/</p>
+<strong>LinkedIn:</strong> <a
+href="https://www.linkedin.com/in/brentrockwood/">https://www.linkedin.com/in/brentrockwood/</a></p>
 <hr />
-<p>Well-rounded development team leader with extensive experience in
-full-stack development from startups to Fortune 50 companies. Skilled in
-various technologies including NodeJS, React, Redux, SQL Server,
-TypeScript, and GraphQL.</p>
+<p>Three decades of technology leadership from startups to Fortune 50
+companies. Skilled in many technologies including NodeJS, React, Redux,
+SQL Server, TypeScript, and GraphQL.</p>
 <hr />
-<h3
-id="vp-lead-information-security-engineer---wells-fargo-2019-current">VP,
-Lead Information Security Engineer - Wells Fargo (2019-Current)</h3>
+<section>
+<h2
+id="vp-lead-information-security-engineer---wells-fargo-2019-2024">VP,
+Lead Information Security Engineer - Wells Fargo (2019-2024)</h2>
 <ul>
-<li>Built and maintained five apps in the Cybersecurity metrics
-group.</li>
+<li>Built and maintained five apps to collect and visualize
+Cybersecurity compliance data for senior management and regulators.</li>
 <li>Tech: NodeJS, React, Redux, MS SQL, TypeScript, GraphQL</li>
 </ul>
-<h3 id="software-developer---teksystems-2017-2019">Software Developer -
-Teksystems (2017-2019)</h3>
+</section>
+<section>
+<h2 id="software-developer---teksystems-2017-2019">Software Developer -
+Teksystems (2017-2019)</h2>
 <ul>
 <li>Full stack development for two Fortune 50 companies in the retail
 and banking sectors.</li>
 <li>Tech: NodeJS, React, Redux, TypeScript, GraphQL, MS SQL</li>
 </ul>
-<h3 id="software-developer---soltech-2016-2017">Software Developer -
-Soltech (2016-2017)</h3>
+</section>
+<section>
+<h2 id="software-developer---soltech-2016-2017">Software Developer -
+Soltech (2016-2017)</h2>
 <ul>
 <li>Led backend development on Node projects in the automotive and
 airline sectors.</li>
 <li>Tech: NodeJS, TypeScript, Postgres, AWS Elastic Beanstalk.</li>
 </ul>
-<h3 id="freelance-developer---notable-projects-2001-2016">Freelance
-Developer - Notable Projects (2001-2016)</h3>
+</section>
+<section>
+<h2 id="freelance-developer---notable-projects-2001-2016">Freelance
+Developer - Notable Projects (2001-2016)</h2>
 <ul>
 <li>Identity Management Connectors - State of Colorado</li>
 <li>AngularJS Directives - Liberty Mutual</li>
@@ -43,43 +101,62 @@ Developer - Notable Projects (2001-2016)</h3>
 <li>Identity Management Connectors - Cenovus Energy</li>
 <li>Tech: AngularJS, Java, VB.Net, C#, MS SQL</li>
 </ul>
-<h3 id="senior-developer---quest-softwaredell-software-2004-2012">Senior
-Developer - Quest Software/Dell Software (2004-2012)</h3>
+</section>
+<section>
+<h2 id="senior-developer---quest-softwaredell-software-2004-2012">Senior
+Developer - Quest Software/Dell Software (2004-2012)</h2>
 <ul>
+<li>Small team developing commercial off the shelf software.</li>
 <li>Quest One Identity Manager - Data Governance Edition</li>
 <li>Quest Collaboration Services</li>
 <li>Quest Access Manager</li>
 <li>Quest Group Policy Manager</li>
 <li>Tech: C#, C++, ADSI</li>
 </ul>
-<h3 id="nicom---software-developer-2003-2004">Nicom - Software Developer
-(2003-2004)</h3>
+</section>
+<section>
+<h2 id="software-developer---nicom-2003-2004">Software Developer - Nicom
+(2003-2004)</h2>
 <ul>
-<li>Provided performance analysis and troubleshooting on a large
-web-based CRM system.</li>
-<li>Subcontracted to a GIS software developer.</li>
+<li>Performance analysis and troubleshooting on a large web-based CRM
+system.</li>
+<li>Developed custom zoning package for Summerside, PEI.</li>
 <li>Tech: VB.Net, Custom language</li>
 </ul>
-<h3 id="microforum---software-developer-1999-2001">Microforum - Software
-Developer (1999-2001)</h3>
+</section>
+<section>
+<h2 id="software-developer---microforum-1999-2001">Software Developer -
+Microforum (1999-2001)</h2>
 <ul>
 <li>Built e-commerce sites and content management systems.</li>
 <li>Built proof-of-concept for RSS news aggregation product.</li>
 <li>Tech: VB.Net, MS SQL</li>
 </ul>
-<h3
-id="mount-sinai-school-of-medicine---systems-analyst-1997-1999">Mount
-Sinai School of Medicine - Systems Analyst (1997-1999)</h3>
+</section>
+<section>
+<h2
+id="systems-analyst---mount-sinai-school-of-medicine-1997-1999">Systems
+Analyst - Mount Sinai School of Medicine (1997-1999)</h2>
 <ul>
-<li>Developed data collection software for federal surgical and
-pharmaceutical trials.</li>
+<li>Developed data collection software for NIH and FDA clinical
+trials.</li>
 <li>Provided technical support services for the Department of
 Neurology.</li>
 <li>Tech: VB.Net, MS SQL</li>
 </ul>
-<h3 id="rockwood-electronics---junior-partner-1990-1997">Rockwood
-Electronics - Junior Partner (1990-1997)</h3>
+</section>
+<hr />
+<section>
+<h2 id="references">References</h2>
 <ul>
-<li>Worked in all aspects of family business including custom PC
-hardware and technical support.</li>
+<li><p>Scott Brow<br />
+Software Development Manager, Wells Fargo<br />
+<a href="mailto:scott.brow@wellsfargo.com">scott.brow@wellsfargo.com</a>
+(214-354-6885)</p></li>
+<li><p>Jeff Pick<br />
+Software Development Manager, Quest Software<br />
+<a href="mailto:jeff.pick@quest.com">jeff.pick@quest.com</a>
+(902-877-3782)</p></li>
 </ul>
+</section>
+</body>
