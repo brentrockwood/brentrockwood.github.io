@@ -29,9 +29,12 @@ pandoc "$INPUT" \
   -o "$OUTDIR/$BASENAME.docx"
 
 rm -f ./index.html
+rm -f ./README.md
+rm -f ./BrentRockwood-CV.md
 rm -f ./BrentRockwood-CV.pdf
 rm -f ./BrentRockwood-CV.docx
 
+cp "$INPUT" ./README.md
 ln -s $OUTDIR/$BASENAME.html ./index.html
 ln -s $OUTDIR/$BASENAME.pdf ./BrentRockwood-CV.pdf
 ln -s $OUTDIR/$BASENAME.docx ./BrentRockwood-CV.docx
