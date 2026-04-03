@@ -1,6 +1,7 @@
 ---
 geometry: margin=1in
 pagestyle: empty
+title: Brent Rockwood - CV
 ---
 
 # Brent Rockwood
@@ -8,11 +9,9 @@ pagestyle: empty
 
 Johns Creek, GA · +1 404-960-2864 · <brentdev@brentrockwood.com>
 
-[LinkedIn](https://www.linkedin.com/in/brentrockwood/) · [GitHub](https://github.com/brentrockwood) · [Rockwood Lab](https://rockwoodlab.com)
-
-<hr>
-<p><a href="BrentRockwood-CV.pdf" download>PDF</a> · <a href="BrentRockwood-CV.docx" download>Word</a></p>
-<hr>
+- <https://www.linkedin.com/in/brentrockwood/>
+- <https://github.com/brentrockwood>
+- <https://rockwoodlab.com>
 
 ## SUMMARY
 
@@ -110,7 +109,9 @@ Selected engagements:
   - Quest Group Policy Manager
   - Quest Archive Manager
 - Implemented backend services **and a Windows kernel minifilter driver** to audit and intercept filesystem access.
+- Reverse engineered the Microsoft Group Policy internal structure and implemented an XML-based system to report differences between versions.
 - Managed regression testing, installer packaging, and enterprise deployment tooling.
+- Worked as a member of a team practicing what was, at the time, the new Agile/Scrum methodology.
 
 **Tech:** C#, C++, Windows Kernel APIs, NTFS, ADSI, MS SQL Server  
 
