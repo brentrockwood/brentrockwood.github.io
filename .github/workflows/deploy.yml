@@ -1,0 +1,70 @@
+name: Build and Deploy CV to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pandoc and LaTeX
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended
+
+      - name: Build HTML
+        run: |
+          mkdir -p dist
+          pandoc README.md \
+            -o dist/index.html \
+            --standalone \
+            --template=template/html.pandoc \
+            --variable pagetitle="Brent Rockwood - CV"
+
+      - name: Build PDF
+        run: |
+          pandoc README.md \
+            -o dist/BrentRockwood-CV.pdf \
+            --pdf-engine=pdflatex \
+            -V geometry:margin=1in \
+            -V fontsize=11pt \
+            -V linkcolor=blue
+
+      - name: Build DOCX
+        run: |
+          pandoc README.md \
+            -o dist/BrentRockwood-CV.docx
+
+      - name: Copy CNAME
+        run: |
+          mkdir -p dist
+          cp CNAME dist/CNAME
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

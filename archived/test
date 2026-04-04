@@ -1,5 +1,0 @@
-#! /bin/bash
-
-scp index.html debian:~/cv/content
-ssh debian -f 'screen -d -m ~/cv/restart'
-
