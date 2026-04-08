@@ -7,7 +7,7 @@ title: Brent Rockwood - CV
 # Brent Rockwood
 **Principal / Staff Software Engineer · Security & Systems Architect**
 
-Johns Creek, GA · +1 404-960-2864 · <brentdev@brentrockwood.com>
+Johns Creek, GA · +1 404-960-2864 · <brent@brentrockwood.com>
 
 - <https://www.linkedin.com/in/brentrockwood/>
 - <https://github.com/brentrockwood>
