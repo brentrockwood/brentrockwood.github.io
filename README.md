@@ -1,7 +1,6 @@
 ---
 geometry: margin=1in
 pagestyle: empty
-title: Brent Rockwood - CV
 ---
 
 # Brent Rockwood
