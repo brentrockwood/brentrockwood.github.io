@@ -1,10 +1,5 @@
----
-geometry: margin=1in
-pagestyle: empty
----
-
 # Brent Rockwood
-**Principal / Staff Software Engineer · Security & Systems Architect**
+**Principal / Staff Software Engineer · AI Systems, Security & Systems Architect**
 
 Johns Creek, GA · +1 404-960-2864 · <brent@brentrockwood.com>
 
@@ -14,30 +9,33 @@ Johns Creek, GA · +1 404-960-2864 · <brent@brentrockwood.com>
 
 ## SUMMARY
 
-Principal / Staff Software Engineer with **30+ years of experience** building software platforms, security systems, and operational tooling across **finance, cybersecurity, identity governance, and SaaS**.
+Principal / Staff Software Engineer with **30+ years of experience** building and operating software platforms, security systems, data-processing workflows, and operational tooling across **finance, cybersecurity, identity governance, and SaaS**.
 
-Recent work has focused on **AI-assisted systems, agent workflows, human-in-the-loop automation, knowledge retrieval systems, evaluation frameworks, and infrastructure automation**. Experienced designing systems that combine deterministic software, data platforms, and AI models to support operational decision-making and complex technical workflows.
+Recent work centers on **AI systems and Linux-native infrastructure**: local and cloud model workflows, agent systems, retrieval and evaluation pipelines, and human-in-the-loop automation. Builds practical systems that combine deterministic software, data platforms, and AI models for reliable technical and operational decision-making.
 
-Deep expertise in **Python, TypeScript, React, GraphQL, Linux systems, security architecture, and large-scale distributed systems**. Known for translating ambiguous requirements into reliable, maintainable systems and operating effectively at the intersection of engineering, architecture, security, and operations.
+Deep expertise in **Linux, TypeScript, security architecture, and large-scale distributed systems**. Brings hands-on systems experience—from application and data pipelines through containers, local inference, and production operations—and a long record of turning ambiguous requirements into maintainable working systems.
 
 ## CORE SKILLS
 
-**Languages & Runtimes**  
-Python, TypeScript, JavaScript, Node.js, C#, C++, SQL
-
-**Frontend & APIs**  
-React, Redux, REST, Tailwind, AngularJS (legacy)
-
-**Backend & Data**  
-PostgreSQL, MS SQL Server, SQLite, Qdrant, MongoDB, Redis, MySQL, GraphQL
-
-**Cloud & Infrastructure**  
-Linux, Docker, Devpods, AWS (Elastic Beanstalk, EC2, S3, RDS), CI/CD, Nginx
-
-**AI Systems & Agent Engineering**  
+**AI Systems, Agents & Evaluation**  
 Agent Workflows, Human-in-the-Loop Systems, RAG, Vector Databases, Knowledge Retrieval Systems, Model Evaluation Frameworks, Prompt & Context Engineering, Multi-Model Orchestration, Local LLM Infrastructure, Operational Automation
 
-**Security & Systems**  
+**Linux, Infrastructure & Operations**  
+Linux systems engineering, Docker, Devpods, local inference environments, infrastructure automation, AWS (Elastic Beanstalk, EC2, S3, RDS), CI/CD, Nginx
+
+**Languages & Runtimes**  
+TypeScript, JavaScript, Node.js, Python, Go, Rust, C#, C++, SQL
+
+**Backend, Data & APIs**  
+PostgreSQL, MS SQL Server, MySQL, SQLite, Qdrant, MongoDB, Redis, REST, GraphQL
+
+**Frontend**  
+React, Redux, Tailwind, AngularJS (legacy)
+
+**AI Security & Systems**  
+LLM and agent security, prompt injection, instruction hierarchies, AI control and monitoring, guardrails, model extraction, data poisoning, adversarial ML, ML threat modeling
+
+**Security & Architecture**  
 RBAC, IAM Integrations, Data Governance, Compliance Reporting, Identity Lifecycle Management, Enterprise Security Architecture, Windows Kernel Development (historical)
 
 ## PROFESSIONAL EXPERIENCE
@@ -45,26 +43,27 @@ RBAC, IAM Integrations, Data Governance, Compliance Reporting, Identity Lifecycl
 ### Rockwood Lab — *Principal Engineer / Founder (AI Systems & Software Architecture)*
 **May 2024 – Present**
 
-- Founded and operate Rockwood Lab, an independent engineering practice focused on applied R&D, systems architecture, and full-stack software delivery.
-- Designed and implemented AI-assisted software systems combining LLMs, deterministic automation, retrieval systems, and human-in-the-loop workflows.
-- Built agent-oriented architectures for operational automation, documentation generation, infrastructure support, and software development workflows.
-- Developed vector-database-backed knowledge systems enabling semantic retrieval across technical documentation, runbooks, and project artifacts.
-- Designed evaluation and experimentation frameworks for comparing models, prompts, workflows, and autonomous behaviors.
-- Ported and adapted open-source AI systems including Karpathy's Autoresearch and NVIDIA OpenShell/NemoClaw to local infrastructure environments.
-- Developed multi-model orchestration tooling enabling collaborative workflows across frontier and local models.
-- Led contract engagements delivering production React/TypeScript applications, including billing and payment system integrations.
-- Served as technical lead and architect owning requirements, system design, implementation, and delivery end-to-end.
+- Founded and operate Rockwood Lab, an independent engineering practice focused on applied R&D, AI systems engineering, systems architecture, and full-stack delivery.
+- Design and implement AI systems that combine local and cloud-hosted models, deterministic automation, retrieval, and human-in-the-loop workflows.
+- Build and operate **Linux-based AI environments**, including containerized inference systems, developer tooling, local-model orchestration, and infrastructure automation.
+- Develop agent-oriented systems for operational automation, documentation generation, infrastructure support, and software-development workflows.
+- Develop vector-database-backed knowledge systems enabling semantic retrieval across technical documentation, runbooks, and project artifacts.
+- Design evaluation and experimentation frameworks for comparing models, prompts, workflows, and autonomous behaviors.
+- Port and adapt open-source AI systems—including Karpathy's Autoresearch and NVIDIA OpenShell/NemoClaw—to local infrastructure environments.
+- Develop multi-model orchestration tooling that coordinates frontier and local models in shared, repeatable workflows.
+- Lead contract engagements delivering production React/TypeScript applications, including billing and payment-system integrations.
+- Serve as technical lead and architect, owning requirements, system design, implementation, and delivery end-to-end.
 
 
 #### Selected AI Systems & Infrastructure Projects
 
-- **Autoresearch Strix Halo Port** — Ported and optimized Karpathy's Autoresearch framework to AMD Strix Halo local infrastructure, enabling high-throughput autonomous research workflows on consumer hardware.
-- **OpenShell / NemoClaw Integration** — Implemented Ollama provider support and contributed infrastructure enabling local and remote model orchestration within agent-driven development workflows.
-- **Trio Multi-Model Collaboration Tool** — Built a command-line system coordinating multiple frontier and local models within a shared workflow, enabling comparative analysis and collaborative problem solving.
-- **Operational Knowledge & RAG Systems** — Designed vector-database-backed knowledge retrieval systems integrating infrastructure documentation, runbooks, and operational procedures to support AI-assisted troubleshooting and decision-making.
+- **Autoresearch Strix Halo Port** — Ported and optimized Karpathy's Autoresearch framework for AMD Strix Halo local infrastructure, enabling autonomous research workflows on local hardware.
+- **OpenShell / NemoClaw Local-LLM Enablement** — Implemented Ollama provider support and contributed infrastructure for local and remote model orchestration within agent-driven development workflows.
+- **Trio Multi-Model Collaboration Tool** — Built a command-line workflow coordinating frontier and local models for comparative analysis and collaborative problem solving.
+- **Operational Knowledge & RAG Systems** — Designed vector-database-backed knowledge-retrieval systems integrating infrastructure documentation, runbooks, and operational procedures to support AI-assisted troubleshooting and decision-making.
 
 
-**Tech:** Python, Go, Rust, React, TypeScript, Node.js, GraphQL, SQL, Docker, Qdrant, AI Tooling, Infrastructure Automation
+**Tech:** TypeScript, JavaScript, Node.js, Go, Rust, Python, React, GraphQL, SQL, Docker, Linux, Qdrant, AI Tooling, Infrastructure Automation
 
 ### Wells Fargo — *Vice President, Lead Information Security Engineer*
 **May 2019 – May 2024**
@@ -134,6 +133,13 @@ Developed NIH-compliant clinical trial software and supported neurology research
 
 **Hardware & Software Generalist — Rockwood Electronics (1990–1997)**
 Built custom PCs, performed forensic troubleshooting, and developed Access/VBA automation systems.
+
+## PROFESSIONAL DEVELOPMENT
+
+**AI Security Bootcamp (AISB) — Las Vegas**  
+**Completed August 2026**
+
+Completed an intensive, hands-on AI security curriculum covering LLM and agent security, prompt injection and instruction hierarchies, AI control and monitoring, guardrails and jailbreaking, model extraction, data poisoning, adversarial ML, AI infrastructure security, and ML threat modeling. Completed hands-on security exercises and practical work involving coding-agent attack and defense scenarios, model-level attacks and mitigations, and infrastructure threat analysis.
 
 ## EDUCATION
 
